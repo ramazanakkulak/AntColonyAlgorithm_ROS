@@ -22,8 +22,11 @@ You can follow the steps below to install the necessary simulation packages of T
 1. Open Terminal
 2. Go to the source folder of the workspace (cd catkin_ws/src)
 3. Copy the codes below into the terminal.
+
      git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+     
      git clone https://github.com/ROBOTIS-GIT/turtlebot3.git -b noetic-devel
+     
      git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b noetic-devel    
 4. Go back to the workspace (cd ~/catkin_ws) and compile (catkin_make).
 
