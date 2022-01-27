@@ -23,7 +23,7 @@ The above-mentioned variables (optimally adjusted) are as follows.
 **2. Go to the source folder of the workspace (cd catkin_ws/src)**
 **3. Copy the codes below into the terminal.**
 
-     >git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+     git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
      
      git clone https://github.com/ROBOTIS-GIT/turtlebot3.git -b noetic-devel
      
