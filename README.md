@@ -18,9 +18,13 @@ The above-mentioned variables (optimally adjusted) are as follows.
 
 
 **Installing required packages**
+
 **You can follow the steps below to install the necessary simulation packages of TurtleBot3.**
+
 **1. Open Terminal**
+
 **2. Go to the source folder of the workspace (cd catkin_ws/src)**
+
 **3. Copy the codes below into the terminal.**
 
      git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
@@ -32,8 +36,11 @@ The above-mentioned variables (optimally adjusted) are as follows.
 **4. Go back to the workspace (cd ~/catkin_ws) and compile (catkin_make).**
 
 **Practice stages of launcher packages required for ROS**
+
 **1. Run any gazebo launcher that you create yourself or that comes pre-built in turtlebot3 packages.**
-**2. Then, in the turtlebot3_navigation.launcher file, replace the previously scanned map map.yaml with your own map (ex: mymap.yaml) name. After the necessary preparations are made, the TSP algorithm can be applied.**
+
+>2. Then, in the turtlebot3_navigation.launcher file, replace the previously scanned map map.yaml with your own map (ex: mymap.yaml) name. After the necessary preparations are made, the TSP algorithm can be applied.**
+
 **3. rosrun  ROS_Amt_tsp.py**
 
 **IMPORTANT NOTE: The first position point to be entered must always be the starting point of the robot.**
