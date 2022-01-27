@@ -15,3 +15,15 @@ The developed algorithm is supported by the fuzzy model and can make different c
 The above-mentioned variables (optimally adjusted) are as follows.
 
 ![image](https://user-images.githubusercontent.com/78980365/130976662-1c65d072-96bc-42c7-a7a5-0754f1a1a4f0.png)
+
+
+Installing required packages
+You can follow the steps below to install the necessary simulation packages of TurtleBot3.
+1. Open Terminal
+2. Go to the source folder of the workspace (cd catkin_ws/src)
+3. Copy the codes below into the terminal.
+     git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+     git clone https://github.com/ROBOTIS-GIT/turtlebot3.git -b noetic-devel
+     git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b noetic-devel    
+4. Go back to the workspace (cd ~/catkin_ws) and compile (catkin_make).
+
