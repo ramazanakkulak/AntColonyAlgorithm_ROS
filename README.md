@@ -37,11 +37,11 @@ The above-mentioned variables (optimally adjusted) are as follows.
 
 **Practice stages of launcher packages required for ROS**
 
->1. Run any gazebo launcher that you create yourself or that comes pre-built in turtlebot3 packages.**
+>1. Run any gazebo launcher that you create yourself or that comes pre-built in turtlebot3 packages.
 
->2. Then, in the turtlebot3_navigation.launcher file, replace the previously scanned map map.yaml with your own map (ex: mymap.yaml) name. After the necessary preparations are made, the TSP algorithm can be applied.**
+>2. Then, in the turtlebot3_navigation.launcher file, replace the previously scanned map map.yaml with your own map (ex: mymap.yaml) name. After the necessary preparations are made, the TSP algorithm can be applied.
 
->3. rosrun  ROS_Amt_tsp.py**
+>3. rosrun  ROS_Amt_tsp.py
 
 **IMPORTANT NOTE: The first position point to be entered must always be the starting point of the robot.**
 **For example: Start Point 0,0
